@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,84 +16,4 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-.title-footer {
-  display: flex;
-  justify-content: center;
-}
-
-.main-item {
-  width: 55%;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 1rem;
-  font-size: 14px;
-}
-
-.title-jetta {
-  display: flex;
-  justify-content: space-between;
-  border: solid 2px #c0c0c0;
-  background-color: #DCDCDC;
-}
-
-.title-polo {
-  display: flex;
-  justify-content: space-between;
-  border: solid 2px #c0c0c0;
-  background-color: #DCDCDC;
-}
-
-.title-tcross {
-  display: flex;
-  justify-content: space-between;
-  border: solid 2px #c0c0c0;
-  background-color: #DCDCDC;
-}
-
-.title-tiguan {
-  display: flex;
-  justify-content: space-between;
-  border: solid 2px #c0c0c0;
-  background-color: #DCDCDC;
-}
-
-.title-civic {
-  display: flex;
-  justify-content: space-between;
-  border: solid 2px #c0c0c0;
-  background-color: #DCDCDC;
-}
-
-.title-corolla {
-  display: flex;
-  justify-content: space-between;
-  border: solid 2px #c0c0c0;
-  background-color: #DCDCDC;
-}
-
-.title-corollacross {
-  display: flex;
-  justify-content: space-between;
-  border: solid 2px #c0c0c0;
-  background-color: #DCDCDC;
-}
-
-.title-compass {
-  display: flex;
-  justify-content: space-between;
-  border: solid 2px #c0c0c0;
-  background-color: #DCDCDC;
-}
-
-.title-golf {
-  display: flex;
-  justify-content: space-between;
-  border: solid 2px #c0c0c0;
-  background-color: #DCDCDC;
-}
-
-.item-list {
-  padding: 1rem;
 }
